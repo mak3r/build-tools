@@ -1,0 +1,1001 @@
+   43  cat /etc/group
+   44  docker info
+   45  ls
+   46  groups
+   47  docker info
+   48  sudo systemctl docker stop
+   49  docker ps
+   50  sudo systemctl docker status
+   51  sudo systemctl stop docker
+   52  sudo vi /ect/docker/daemon.json
+   53  sudo vi /etc/docker/daemon.json
+   54  ls /
+   55  sudo systemctl start docker
+   56  docker info
+   57  df
+   58  du -h
+   59  df -h
+   60  sudo apt-get install blender
+   61  blender
+   62  sudo apt-cache search visual
+   63  sudo apt-cache search studio
+   64  ls
+   65  sudo apt install ./Downloads/code_1.30.1-1545156774_amd64.deb 
+   66  code .
+   67  ls
+   68  mkdir dev
+   69  ls
+   70  cd dev
+   71  cd ..
+   72  ls
+   73  ls Downloads/
+   74  cd Downloads/
+   75  unzip op_linux_amd64_v0.5.5.zip 
+   76  ls
+   77  ls op
+   78  op/op
+   79  ./op/op
+   80  ls -la op
+   81  ./op 
+   82  ls
+   83  cat op.sig 
+   84  ls
+   85  rm op op.sig
+   86  ls
+   87  cd ..
+   88  mkdir bin
+   89  cd bin
+   90  unzip ../Downloads/op_linux_amd64_v0.5.5.zip 
+   91  ls
+   92  gpg --receive-keys 3FEF9748469ADBE15DA7CA80AC2D62742012EA22
+   93  gpg --help
+   94  gpg --receive-keys 3FEF9748469ADBE15DA7CA80AC2D62742012EA22
+   95  sudo apt-get install dirmngr
+   96  gpg --receive-keys 3FEF9748469ADBE15DA7CA80AC2D62742012EA22
+   97  gpg --verify op.sig op
+   98  ls
+   99  rm -f *
+  100  ls
+  101  cd ..
+  102  cd Downloads/
+  103  ls
+  104  rm op_linux_amd64_v0.5.5.zip 
+  105  sudo apt install ./google-chrome-stable_current_amd64.deb 
+  106  ls ~/.ssh
+  107  ssh-keygen -t rsa -b 2048 -f ~/.ssh/id_rsa
+  108  ls
+  109  ls ~/.ssh
+  110  cat ~/.ssh/id_rsa.pub 
+  111  cd ../dev/
+  112  ls
+  113  git clone git@github.com:mak3r/puzlmak3r.git
+  114  ls
+  115  ls puzlmak3r/
+  116  cd ../
+  117  ls
+  118  cd Downloads/
+  119  ls
+  120  tar -xvjf Slic3rPE-1.42.0-alpha1+linux64-full-201812231738.tar.bz2 
+  121  ls
+  122  ls Slic3rPE-1.42.0-alpha1+linux64-full-201812231738
+  123  ls 
+  124  ls -la
+  125  chmod a+x Slic3rPE-1.42.0-alpha1+linux64-full-201812231738.AppImage 
+  126  ./Slic3rPE-1.42.0-alpha1+linux64-full-201812231738.AppImage 
+  127  mv Slic3rPE-1.42.0-alpha1+linux64-full-201812231738.AppImage ../bin/.
+  128  vi ~/.bashrc 
+  129  vi ~/.bash_profile
+  130  . ~/.bash_profile 
+  131  echo env
+  132  echo $PATH
+  133  ln --help
+  134  ln -s ~/bin/Slic3rPE-1.42.0-alpha1+linux64-full-201812231738.AppImage Slic3r
+  135  ls -la ~/bin/
+  136  ls
+  137  rm Slic3r
+  138  ln -s ~/bin/Slic3rPE-1.42.0-alpha1+linux64-full-201812231738.AppImage ~/bin/slic3r
+  139  slic3r 
+  140  cd ../dev/
+  141  git clone git@bitbucket.org:mak3ra/models.git
+  142  ls
+  143  pbcopy
+  144  xclip
+  145  xsel
+  146  sudo apt-get install xsel
+  147  xsel --help
+  148  cat ~/.ssh/id_rsa.pub | xsel -ib
+  149  git clone git@bitbucket.org:mak3ra/models.git
+  150  ls
+  151  sudo vi /etc/default/grub 
+  152  aplay -l
+  153  sudo vi /etc/default/grub 
+  154  sudo update-grub
+  155  sudo vi /etc/default/grub 
+  156  sudo update-grub
+  157  sudo shutdown -r now
+  158  dmesg
+  159  sudo dmesg
+  160  rfkill --help
+  161  sudo apt-cache search rfkill
+  162  sudo dmesg
+  163  sudo dmesg | grep error
+  164  sudo dmesg | grep Error
+  165  whoami
+  166  ls
+  167  vinagre -d
+  168  vinagre -h
+  169  vinagre --help
+  170  vinagre
+  171  vinagre 
+  172  vinagre mak3rsmini.local:5900
+  173  vinagre --gtk-vnc-debug mak3rsmini.local:5900
+  174  sudo apt-get upgrade
+  175  sudo apt-get install tightvnc
+  176  sudo apt-cache search vnc
+  177  sudo apt-get install xtightvncviewer
+  178  xtightvncviewer --help
+  179  xtightvncviewer mak3rsmini.local:5900
+  180  vinagre --gtk-vnc-debug mak3rsmini.local:5900
+  181  ls
+  182  mkdir sbin
+  183  echo 'xtightvncviewer mak3rsmini.local:5900' > sbin/connect-mak3rsmini.sh
+  184  mkdir .mak3r
+  185  ls -la
+  186  mkdir .vnc
+  187  echo vncpass > .vnc/passwd
+  188  chmod 400 .vnc/passwd 
+  189  ls -la .vnc/
+  190  vi sbin/connect-mak3rsmini.sh 
+  191  vi ~/.bash_profile 
+  192  source ~/.bash_profile 
+  193  echo $PATH
+  194  chmod 700 sbin/connect-mak3rsmini.sh 
+  195  connect-mak3rsmini.sh 
+  196  xtightvncviewer --help
+  197  vi ~/sbin/connect-mak3rsmini.sh 
+  198  fg
+  199  xtightvncviewer -passwd ~/.vnc/passwd mak3rsmini.local:5900
+  200  ls ~/.vnc/passwd 
+  201  cat ~/.vnc/passwd 
+  202  rm ~/.vnc/passwd 
+  203  vncpasswd
+  204  xvncviewer --help
+  205  man xvncviewer 
+  206  sudo apt-get install vncpasswd
+  207  sudo apt-cache search vncpass
+  208  man xvncviewer 
+  209  xtightvncviewer -autopass mak3rsmini.local:5900
+  210  ls ~/.vnc/
+  211  xtightvncviewer -autopass -passwd ~/.vnc/vncpass mak3rsmini.local:5900
+  212  sudo apt-cache search vnc
+  213  sudo apt-get remove xtightvnc
+  214  sudo apt-get remove xtightvncviewer
+  215  sudo apt-get install tigervnc-viewer
+  216  vncviewer --help
+  217  vncviewer mak3rsmini.local:5900
+  218  sudo apt-get install tigervnc-common
+  219  vncpasswd 
+  220  vncviewer mak3rsmini.local:5900
+  221  vncviewer 
+  222  vncviewer -passwd  mak3rsmini.local:5900
+  223  ls
+  224  ls -la
+  225  ls .vnc/
+  226  cat .vnc/passwd 
+  227  vncviewer -passwd ~/.vnc/passwd mak3rsmini.local:5900
+  228  vi sbin/connect-mak3rsmini.sh 
+  229  connect-mak3rsmini.sh 
+  230  vncviewer --help
+  231  vi sbin/connect-mak3rsmini.sh 
+  232  connect-mak3rsmini.sh 
+  233  vi sbin/connect-mak3rsmini.sh 
+  234  connect-mak3rsmini.sh 
+  235  vi sbin/connect-mak3rsmini.sh 
+  236  connect-mak3rsmini.sh 
+  237  vi sbin/connect-mak3rsmini.sh 
+  238  connect-mak3rsmini.sh 
+  239  vncviewer --help | grep scale
+  240  man vncviewer 
+  241  connect-mak3rsmini.sh 
+  242  vi sbin/connect-mak3rsmini.sh 
+  243  connect-mak3rsmini.sh 
+  244  connect-mak3rsmini.sh -Display=1
+  245  vi sbin/connect-mak3rsmini.sh 
+  246  man vncviewer 
+  247  connect-mak3rsmini.sh -display 1
+  248  connect-mak3rsmini.sh "-display 1"
+  249  connect-mak3rsmini.sh "-display=1
+  250  connect-mak3rsmini.sh -display=1
+  251  connect-mak3rsmini.sh -display
+  252  connect-mak3rsmini.sh 
+  253  vncviewer 
+  254  connect-mak3rsmini.sh -DesktopSize=1
+  255  connect-mak3rsmini.sh -DesktopSize=1024x768
+  256  connect-mak3rsmini.sh -geometry=1024x768
+  257  connect-mak3rsmini.sh -geometry
+  258  connect-mak3rsmini.sh -geometry=2
+  259  connect-mak3rsmini.sh -geometry=1
+  260  connect-mak3rsmini.sh -RemoteSize
+  261  connect-mak3rsmini.sh -RemoteSize=1
+  262  connect-mak3rsmini.sh -RemoteResize
+  263  sudo apt-get remove tigervnc-common
+  264  sudo apt-get remove tigervnc-viewer
+  265  sudo apt-get install xtightvncviewer
+  266  vncviewer --help
+  267  vncviewer -passwd ~/.vnc/passwd mak3rsmini.local:5900
+  268  vncviewer -passwd ~/.vnc/passwd -fullscreen mak3rsmini.local:5900
+  269  vncviewer -passwd ~/.vnc/passwd mak3rsmini.local:5900
+  270  man vncviewer 
+  271  cd /etc/udev/rules.d/
+  272  ls
+  273  sudo vi 70-u2f.rules
+  274  udev -version
+  275  man udev
+  276  /bin/udevadm --version
+  277  sudo shutdown -r now
+  278  ls /etc/udev/
+  279  cd /etc/udev/rules.d/
+  280  ls
+  281  ls -la
+  282  dmesg
+  283  sudo dmesg
+  284  ccccccjteffjdlvhkgivfcnutrbkvbrfdcjggtibibgt
+  285  ccccccjteffjurlkrtnrckdkcdllcffrrjvtevhtnler
+  286  cd
+  287  ls
+  288  cd dev
+  289  ls
+  290  cd models/
+  291  ls
+  292  cd Models/
+  293  ls
+  294  cd Jewelry/
+  295  ls
+  296  mkdir RingHolderConic
+  297  ls
+  298  blender
+  299  ls
+  300  ls RingHolderConic/
+  301  pushd ~/dev/
+  302  ls
+  303  cd ..
+  304  ls
+  305  mkdir -p notes/2019/01/10
+  306  code notes/2019/01/10/daily.md
+  307  code notes/2019/01/10/scratch.md
+  308  pushd
+  309  ls
+  310  cd RingHolderConic/
+  311  ls
+  312  blender ring-holder.blend
+  313  mkdir ~/.config/Yubico
+  314  sudo add-apt-repository ppa:yubico/stable && sudo apt-get update
+  315  sudo mv /etc/apt/trusted.gpg ~/.
+  316  sudo add-apt-repository ppa:yubico/stable && sudo apt-get update
+  317  ls /etc/apt
+  318  ls ~
+  319  sudo vi /etc/apt/source.list
+  320  sudo vi /etc/apt/sources.list
+  321  ls /etc/apt
+  322  ls /etc/apt/sources.list.d/
+  323  sudo add-apt-repository -r ppa:yubico/stable && sudo apt-get update
+  324  ls /etc/apt/sources.list.d/
+  325  sudo rm /etc/apt/sources.list.d/yubico-ubuntu-stable-disco.list*
+  326  sudo apt-get update
+  327  ls /etc/apt/sources.list.d/
+  328  sudo add-apt-repository ppa:webupd8team/y-ppa-manager
+  329  sudo apt-get update
+  330  sudo apt-get install y-ppa-manager
+  331  sudo apt-key adv --keyserver keyserver.debian.org --recv-keys 1397BC53640DB551
+  332  sudo apt-key adv --keyserver ppa.launchpad.net --recv-keys C2518248EEA14886
+  333  gpg NO_PUBKEY 1397BC53640DB551
+  334  gpg Failed to fetch http://dl.google.com/linux/chrome/deb/dists/stable/Release.gpg  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 1397BC53640DB551
+  335  gpg "Failed to fetch http://dl.google.com/linux/chrome/deb/dists/stable/Release.gpg  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 1397BC53640DB551"
+  336  sudo apt-get update
+  337  pushd /etc/apt
+  338  ls
+  339  cat sources.list
+  340  cd sources.list.d/
+  341  ls
+  342  cat webupd8team-ubuntu-y-ppa-manager-disco.list 
+  343  mv webupd8team-ubuntu-y-ppa-manager-disco.list ~/.
+  344  sudo mv webupd8team-ubuntu-y-ppa-manager-disco.list ~/.
+  345  ls
+  346  sudo apt-get update
+  347  ls
+  348  cd ..
+  349  ls
+  350  ls trusted.gpg.d/
+  351  cd trusted.gpg.d/
+  352  ls
+  353  mv webupd8team_ubuntu_y-ppa-manager.gpg ~/.
+  354  sudomv webupd8team_ubuntu_y-ppa-manager.gpg ~/.
+  355  sudo mv webupd8team_ubuntu_y-ppa-manager.gpg ~/.
+  356  ls
+  357  sudo mv yubico_ubuntu_stable.gpg ~/.
+  358  ls
+  359  apt-get update
+  360  sudo apt-get upgrade
+  361  uname -a
+  362  ls /etc/
+  363  cat /proc/version 
+  364  cat /etc/release
+  365  cat /etc/*-release
+  366  sudo apt-get update
+  367  curl -s https://download.docker.com/linux/debian/doc/apt-key.gpg | apt-key add -
+  368  sudo curl -s https://download.docker.com/linux/debian/doc/apt-key.gpg | apt-key add -
+  369  sudo /bin/bash -c ' curl -s https://download.docker.com/linux/debian/doc/apt-key.gpg | apt-key add -'
+  370  sudo /bin/bash -c 'curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -'
+  371  sudo /bin/bash -c 'curl -fsSL https://dl.google.com/linux/chrome/deb/gpg | sudo apt-key add -'
+  372  sudo /bin/bash -c 'wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -'
+  373  sudo apt-get update
+  374  sudo apt-get upgrade
+  375  sudo apt autoremove
+  376  docker info
+  377  sudo apt-cache search yubikey
+  378  lsusb | grep u2f
+  379  lsusb 
+  380  sudo apt-get install pamu2fcfg libpam-u2f
+  381  mkdir -p ~/.config/Yubico
+  382  pamu2fcfg >> ~/.config/Yubico/u2f_keys
+  383  cat ~/.config/Yubico/u2f_keys 
+  384  ls
+  385  cd
+  386  ls
+  387  cd /etc/pam.d/
+  388  ls
+  389  sudo vi gdm-password 
+  390  sudo shutdown -r now
+  391  cd /etc/pam.d/
+  392  ls
+  393  sudo vi gdm-password 
+  394  sudo apt-get install openscad
+  395  cd ..
+  396  ls
+  397  cd dev/models/Models/Jewelry/RingHolderConic/
+  398  ls
+  399  openscad ring-holder-modifiers.scad
+  400  ls
+  401  cp ring-holder003.blend ring-holder004.blend
+  402  blender ring-holder004.blend 
+  403  ls
+  404  rm webupd8team* yubico_ubuntu_stable.gpg 
+  405  ls
+  406  ls /etc/apt/
+  407  rm trusted.gpg 
+  408  ls
+  409  cd dev/
+  410  ls
+  411  cd models/
+  412  ls
+  413  git status
+  414  git add --all
+  415  git commit -m "RingHolder gift"
+  416  git config --global user.email "mabrams@helpguests.com"
+  417  git config --global user.name "Mark (mak3r) Abrams"
+  418  ls
+  419  git status
+  420  git push
+  421  git status
+  422  git commit -m "RingHolder gift"
+  423  git status
+  424  git push
+  425  ls
+  426  cd Models/Jewelry/RingHolderConic/
+  427  ls
+  428  blender ring-holder.blend
+  429  ls
+  430  git status
+  431  git rm ring-holder.blend1
+  432  vi ~/dev/models/.gitignore 
+  433  git status
+  434  vi ~/dev/models/.gitignore 
+  435  git status
+  436  git add --all
+  437  git commit -m "ring holder with heart and texture"
+  438  pushd ~/bin/
+  439  ls
+  440  ls -la
+  441  chmod 755 Slic3rPE-1.42.0-alpha3+linux64-full-201901111425.AppImage 
+  442  ls -la
+  443  ln -s Slic3rPE-1.42.0-alpha3+linux64-full-201901111425.AppImage slic3r
+  444  rm slic3r 
+  445  ln -s Slic3rPE-1.42.0-alpha3+linux64-full-201901111425.AppImage slic3r
+  446  ls
+  447  popd
+  448  slic3r 
+  449  blender
+  450  ls
+  451  blender ring-holder003.blend
+  452  slic3r 
+  453  sudo apt install libcanberra-gtk-module
+  454  slic3r 
+  455  pushd ~
+  456  mv .Slic3rPE-alpha/ .Slic3rPE-alpha-old
+  457  slic3r 
+  458  rm -rf .Slic3rPE-alpha/
+  459  mv .Slic3rPE-alpha-old/ .Slic3rPE-alpha
+  460  cd .Slic3rPE-alpha/
+  461  ls
+  462  ls cache/
+  463  cd cache/
+  464  ls
+  465  ls -la
+  466  mv PrusaResearch.idx PrusaResearch.idx.old
+  467  mv PrusaResearch.idx-update PrusaResearch.idx
+  468  slic3r 
+  469  ls
+  470  rm PrusaResearch.idx
+  471  mv PrusaResearch.idx.old PrusaResearch.idx
+  472  ls
+  473  cd ../..
+  474  ls
+  475  ls bin/
+  476  ls
+  477  cp ./Downloads/Slic3rPE-1.41.2+linux64-full-201811221508.AppImage ./bin/.
+  478  rm bin/slic3r 
+  479  ln -s bin/Slic3rPE-1.41.2+linux64-full-201811221508.AppImage bin/slic3r
+  480  slic3r
+  481  chmod 755 bin/Slic3rPE-1.41.2+linux64-full-201811221508.AppImage 
+  482  slic3r
+  483  ls -ls bin
+  484  rm bin/slic3r 
+  485  ln -s bin/Slic3rPE-1.41.2+linux64-full-201811221508.AppImage bin/slic3r
+  486  slic3r
+  487  ls -la bin/
+  488  cd bin
+  489  ls
+  490  ls -la
+  491  ./slic3r
+  492  ./Slic3rPE-1.41.2+linux64-full-201811221508.AppImage 
+  493  rm slic3r 
+  494  ls
+  495  ln -s Slic3rPE-1.42.0-alpha3+linux64-full-201901111425.AppImage ./slic3r
+  496  slic3r 
+  497  ls
+  498  openscad ring-holder-modifiers.scad 
+  499  ls
+  500  cp ring-holder-modifiers.scad dish-modifiers.scad
+  501  openscad dish-modifiers.scad 
+  502  ssh pi@192.168.86.25
+  503  lsusb
+  504  sudo service bluetooth restart
+  505  dmesg
+  506  sudo dmesg
+  507  sudo service bluetooth restart
+  508  sudo dmesg
+  509  sudo service bluetooth restart
+  510  sudo fdisk -l
+  511  mount -t fat /dev/sdb1 /mnt
+  512  sudo mount -t fat /dev/sdb1 /mnt
+  513  sudo mount -t vfat /dev/sdb1 /mnt
+  514  ls /mnt
+  515  ls /mnt/sources/
+  516  ls /mnt/Boot/
+  517  ls /mnt/System\ Volume\ Information/
+  518  sudo umount /mnt
+  519  sudo shutdown -r now
+  520  ls /
+  521  ls /opt/
+  522  ls /proc
+  523  ls /proc/version 
+  524  uname -a
+  525  ls /
+  526  ls /dev/
+  527  ls /
+  528  cat /proc/version 
+  529  cat /etc/*-release
+  530  lsb_release 
+  531  hostnamectl
+  532  ssh pi@k3s-mgmt
+  533  ssh-copy-id pi@k3s-mgmt
+  534  ssh pi@k3s-mgmt
+  535  slic3r 
+  536  pushd dev/models/Models/Jewelry/RingHolderConic/
+  537  ls
+  538  blender ring-holder008.blend
+  539  blender ring-holder007.blend
+  540  ls
+  541  slic3r ring-holder-007A-RingHolder.stl 
+  542  openscad ring-holder-007A-RingHolder-test.scad 
+  543  slic3r ring-holder-007A-RingHolder-test.stl 
+  544  blender ring-holder007.blend
+  545  slic3r ring-holder-007A-RingHolder-test.stl 
+  546  openscad ring-holder-007A-RingHolder-test.scad 
+  547  slic3r ring-holder-007A-RingHolder-test.stl 
+  548  ls
+  549  mv ring-holder-007A.blend ring-holder-007A00.blend
+  550  cp ring-holder-007A00.blend ring-holder-007A01.blend
+  551  blender ring-holder-007A01.blend 
+  552  ls
+  553  openscad ring-holder-007A-RingHolder-test.scad 
+  554  blender ring-holder-007A03.blend 
+  555  openscad ring-holder-007A-RingHolder-test.scad 
+  556  ls
+  557  cp ring-holder-007A00.blend ring-holder-007B00.blend
+  558  blender ring-holder-007B00.blend 
+  559  ls
+  560  cp ring-holder-007A-RingHolder-test.scad ring-holder-007B00-RingHolder-test.scad
+  561  openscad ring-holder-007B00-RingHolder-test.scad
+  562  ls
+  563  cp ring-holder-007A00.blend ring-holder-007B01.blend
+  564  blender ring-holder-007B01.blend 
+  565  openscad ring-holder-007B00-RingHolder-test.scad
+  566  cp ring-holder-007B01.blend ring-holder-007B02.blend
+  567  blender ring-holder-007B02.blend 
+  568  ls
+  569  cd ../../../
+  570  git status
+  571  git add --all
+  572  ls
+  573  cd Models/
+  574  ls
+  575  mkdir Rancher
+  576  ls
+  577  cd Rancher/
+  578  ls
+  579  mkdir cattle-pi
+  580  cd cattle-pi/
+  581  mv ~/Downloads/Raspberry_Pi_Model_B_PCB_Assembly_with_major_components.zip 
+  582  mv ~/Downloads/Raspberry_Pi_Model_B_PCB_Assembly_with_major_components.zip .
+  583  ls
+  584  unzip Raspberry_Pi_Model_B_PCB_Assembly_with_major_components.zip 
+  585  ls
+  586  cd Raspberry_Pi_Model_B_PCB_Assembly_with_major_components/
+  587  ls
+  588  cd ..
+  589  ls
+  590  mv Raspberry_Pi_Model_B_PCB_Assembly_with_major_components/Raspberry_Pi_Model_B+_3D_Assy_STL_Binary.STL  .
+  591  ls
+  592  rm -r Raspberry_Pi_Model_B_PCB_Assembly_with_major_components
+  593  ls
+  594  cp ~/Downloads/LogoCattle007-Catttle.stl .
+  595  ls
+  596  blender
+  597  ls
+  598  cp case-A005.blend case-B005.blend
+  599  blender case-B005.blend 
+  600  cd ../../..
+  601  git status
+  602  git add --all 
+  603  git commit -m "rancher pi box and v-day ring holder"
+  604  git push
+  605  ls
+  606  slic3r ring-holder-007A-RingHolder-test.stl 
+  607  slic3r ring-holder-007A003-RingHolder.stl 
+  608  slic3r ring-holder-007A03-RingHolder.stl 
+  609  slic3r ring-holder-007A03-RingHolder-test.stl 
+  610  slic3r ring-holder-007B00-RingHolder-test.stl
+  611  slic3r ring-holder-007B01-RingHolder-test.stl
+  612  slic3r ring-holder-007B01-RingHolder.stl
+  613  slic3r ring-holder-007B03-RingHolder.stl
+  614  slic3r 
+  615  ls
+  616  slic3r ring-holder-007B03-RingHolder.stl 
+  617  cd ../../..
+  618  cd Models/Rancher/cattle-pi/
+  619  ls
+  620  cp ~/Downloads/logos-registered_square-blue.svg .
+  621  ls
+  622  slic3r case-A002-Cattle.stl 
+  623  ls
+  624  pushd
+  625  pushd ../../../Models/Jewelry/RingHolderConic/
+  626  ls
+  627  sudo service bluetooth restart
+  628  sudo /etc/init.d/bluetooth restart
+  629  cd dev/
+  630  ls
+  631  mkdir rpi-k3s
+  632  cd rpi-k3s/
+  633  scp pi@k3s-dev.lan:~/lbo-handler .
+  634  scp -h
+  635  mkdir lbo-handler
+  636  cd lbo-handler/
+  637  scp pi@k3s-dev.lan:~/lbo-handler/* .
+  638  ls
+  639  ssh pi@k3s-dev.lan
+  640  scp pi@k3s-dev.lan:~/lbo-handler/app.py .
+  641  ls
+  642  vi Dockerfile 
+  643  scp Dockerfile  pi@k3s-dev.lan:~/lbo-handler/Dockerfile
+  644  ssh pi@k3s-dev.lan
+  645  ls
+  646  cat Dockerfile 
+  647  cat app.py 
+  648  vi app.py 
+  649  ls
+  650  ssh pi@k3s-dev.lan
+  651  scp app.py pi@k3s-dev.lan:~/lbo-handler/.
+  652  ssh pi@k3s-dev.lan
+  653  scp pi@k3s-dev.lan:~/lbo-handler/app.py .
+  654  ls
+  655  ssh pi@k3s-dev.lan
+  656  ls
+  657  vi Dockerfile 
+  658  scp pi@k3s-dev.lan:~/lbo-handler/* .
+  659  cat Dockerfile 
+  660  cat app.py 
+  661  ssh pi@k3s-dev.lan
+  662  scp pi@k3s-dev.lan:~/lbo-handler/* .
+  663  cat app.py 
+  664  ssh pi@k3s-dev.lan
+  665  scp pi@k3s-dev.lan:~/lbo-handler/* .
+  666  ssh pi@k3s-dev.lan
+  667  scp pi@k3s-dev.lan:~/lbo-handler/* .
+  668  scp pi@k3s-dev.lan:~/lbo-handler/app/. app/.
+  669  scp pi@k3s-dev.lan:~/lbo-handler/app/* app/.
+  670  ssh pi@k3s-dev.lan
+  671  ssh pi@k3s-dev.lan
+  672  ls
+  673  mkdir app
+  674  rm -r app
+  675  ls
+  676  mkdir app
+  677  mv app.py app/.
+  678  ls
+  679  vi Dockerfile 
+  680  scp Dockerfile pi@k3s-dev:~/lbo-handler/.
+  681  ssh pi@k3s-dev.lan
+  682  vi app/app.py 
+  683  ssh pi@k3s-dev.lan
+  684  ccccccjteffjlllihtljcjglfjfhblhijeeucbgluncb
+  685  ssh pi@k3s-dev.lan
+  686  sudo apt-get upgrade
+  687  sudo apt-get update
+  688  sudo apt-get upgrade
+  689  cd ..
+  690  ls
+  691  cd models/
+  692  ls
+  693  cd Models/
+  694  ls
+  695  cd Toys/
+  696  ls
+  697  cd DumpTruck/
+  698  ls
+  699  slic3r DumpTruck030-Truck.stl 
+  700  ls
+  701  slic3r DumpTruck020-Wheel_Bolt.stl 
+  702  sudo apt-get update
+  703  sudo apt-get upgrade -y
+  704  git pull
+  705  ls
+  706  git status
+  707  git add --all
+  708  git commit -m "tests updated, added"
+  709  git push
+  710  git pull
+  711  git stash case-scad
+  712  git stash save case-scad
+  713  git pull
+  714  git remote -v
+  715  git remote -h
+  716  git remote rename origin origin git@github.com:mak3r/steer-case.git
+  717  git remote rename origin git@github.com:mak3r/steer-case.git
+  718  git remote -v
+  719  git remote rename origin git@github.com:mak3r/steer-case.git
+  720  git remote -h
+  721  git remote update origin git@github.com:mak3r/steer-case.git
+  722  git remote update git@github.com:mak3r/steer-case.git
+  723  git remote show
+  724  git remote show -v
+  725  git remote -v show
+  726  git remote -h
+  727  git remote set-url origin git@github.com:mak3r/steer-case.git
+  728  git remote -v
+  729  git fetch && git pull
+  730  cd ..
+  731  mv cattle-pi/ steer-case
+  732  cd steer-case/
+  733  ls
+  734  git checkout master
+  735  git pull
+  736  ls
+  737  git pull
+  738  git status
+  739  git pull
+  740  ls
+  741  cd dev/
+  742  ls
+  743  cd models/Models/
+  744  ls
+  745  cd Rancher/
+  746  ls
+  747  cd cattle-pi/
+  748  ls
+  749  blender case-B008.blend
+  750  ls
+  751  slic3r case-B008-Cattle.stl 
+  752  cd ../../..
+  753  git status
+  754  git add --all
+  755  git commit -m "test print model for scale and part configuration"
+  756  git push
+  757  blender case-B008.blend
+  758  ls
+  759  pushd
+  760  pushd Models/Rancher/cattle-pi/
+  761  ls
+  762  blender case-B008.blend
+  763  pushd
+  764  git add --all
+  765  git commit -m "converted latest box from tris to quads"
+  766  git push
+  767  cd ..
+  768  ls
+  769  git clone git@github.com:mak3r/cattle-pi.git
+  770  cd cattle-pi/
+  771  slic3r cattle-pi-BaseSampleComponents.stl 
+  772  git pull
+  773  ls
+  774  slic3r cattle-pi-BaseSampleComponents-v12.stl 
+  775  git pull
+  776  ls
+  777  slic3r cattle-pi-BaseSampleComponents-v15.stl 
+  778  git pull
+  779  slic3r cattle-pi-BaseSampleComponents-v19.stl 
+  780  ls
+  781  touch part.scad
+  782  openscad part.scad 
+  783  slic3r part.stl 
+  784  git pull
+  785  slic3r cattle-pi-BaseSampleComponents-v33.stl 
+  786  git pull && git fetch
+  787  git checkout RevA
+  788  ls
+  789  slic3r case-top-test.stl 
+  790  git pull
+  791  slic3r case-top-test.stl 
+  792  git pull
+  793  ls
+  794  openscad case-top-test.scad 
+  795  slic3r case-top-thread-test.stl 
+  796  git pull
+  797  openscad case-top-test.scad 
+  798  slic3r case-top-thread-test.stl 
+  799  slic3r case-top-half-test.stl 
+  800  slic3r switch-test.stl 
+  801  ls
+  802  slic3r switch-base.stl 
+  803  slic3r switch-top.stl 
+  804  slic3r switch-base.stl 
+  805  slic3r switch-top.stl 
+  806  ls
+  807  openscad Case.scad 
+  808  slic3r switch-base.stl 
+  809  slic3r switch-top.stl 
+  810  slic3r switch-boost.stl 
+  811  slic3r switch-top.stl 
+  812  ls
+  813  slic3r CaseBase.stl 
+  814  slic3r CaseTop.stl 
+  815  cd .. 
+  816  cd steer-case/
+  817  ls
+  818  slic3r CaseTop.stl 
+  819  clear
+  820  ssh-copy-id pi@k3s-dev.lan
+  821  ssh pi@k3s-dev.lan
+  822  ls
+  823  git status
+  824  git tags
+  825  git tag
+  826  git branch
+  827  git fetch && git pull
+  828  cd ..
+  829  ls
+  830  mkdir thingiverse
+  831  cd thingiverse/
+  832  mv ~/Downloads/Mini_Micro_SD_Card_Rounded_Box.zip .
+  833  unzip Mini_Micro_SD_Card_Rounded_Box.zip 
+  834  ls
+  835  mkdir Mini_Micro_SD_Card_Rounded_Box
+  836  mv * Mini_Micro_SD_Card_Rounded_Box/.
+  837  ls
+  838  mv Mini_Micro_SD_Card_Rounded_Box/Mini_Micro_SD_Card_Rounded_Box.zip .
+  839  ls
+  840  mv Mini_Micro_SD_Card_Rounded_Box.zip Mini_Micro_SD_Card_Rounded_Box/.
+  841  ls
+  842  cd Mini_Micro_SD_Card_Rounded_Box/
+  843  ls
+  844  cd files/
+  845  ls
+  846  slic3r MiniMicroSDHolder-2016-05-29F.stl 
+  847  sudo shutdown -r now
+  848  docker ps
+  849  ls
+  850  cd dev
+  851  ls
+  852  mkdir k3s-audio
+  853  cd k3s-audio
+  854  vi Dockerfile
+  855  ls
+  856  uname -a
+  857  sudo apt-get install xen
+  858  sudo apt-get install xen-system
+  859  egrep '(vmx|svm)' /proc/cpuinfo
+  860  xenstore-list 
+  861  xenstore-list -h
+  862  xenstore-exists 
+  863  sudo apt-get remove xen-system
+  864  sudo apt auto remove xen-system
+  865  sudo apt autoremove xen-system
+  866  sudo apt-get remove --purge xen-system
+  867  sudo apt-get remove --purge xen-system-amd64
+  868  sudo apt autoremove
+  869  ls
+  870  cd ..
+  871  git clone git@github.com:mak3r/k3s-rpi-audio.git
+  872  cp k3s-audio/* k3s-rpi-audio/.
+  873  cd k3s-rpi-audio/
+  874  ls
+  875  git add --all
+  876  git commit -m "initial pass at the dockerfile"
+  877  git push
+  878  mkdir build
+  879  cd build
+  880  vi Dockerfile
+  881  docker build .
+  882  vi Dockerfile
+  883  docker build -t .
+  884  docker build .
+  885  vi Dockerfile
+  886  docker build .
+  887  $(lsb-release -cs)
+  888  lsb-release
+  889  lsb_release -cs
+  890  docker run -it add-apt-repository    "deb [arch=armhf] https://download.docker.com/linux/debian \
+   $(lsb_release -cs) \
+  891  docker run -it 3d229e1ec9e8 /bin/bash
+  892  docker run -it 68fdaa560926 /bin/bash
+  893  vi Dockerfile 
+  894  docker run -it 3d229e1ec9e8 /bin/bash
+  895  docker build .
+  896  docker run -it 68fbb05d1e48 /bin/bash
+  897  docker run -it 6a368887b13a /bin/bash
+  898  docker run -it 3dc6191b0dc0 /bin/bash
+  899  vi Dockerfile 
+  900  mv Dockerfile Dockerfile.manual-install
+  901  cp Dockerfile.manual-install Dockerfile
+  902  vi Dockerfile
+  903  docker build .
+  904  vi Dockerfile
+  905  docker build .
+  906  vi Dockerfile
+  907  docker build .
+  908  vi Dockerfile
+  909  docker build .
+  910  ls
+  911  rm Dockerfile
+  912  mv Dockerfile.manual-install Dockerfile
+  913  vi Dockerfile 
+  914  uname -a
+  915  vi Dockerfile 
+  916  docker run -it 3dc6191b0dc0 /bin/bash
+  917  ls
+  918  cd ../..
+  919  git clone git@github.com:mak3r/build-tools.git
+  920  cd build-tools/
+  921  mv ~/dev/k3s-rpi-audio/build/ docker-tools
+  922  ls
+  923  cd docker-tools/
+  924  ls
+  925  mkdir armhf-build
+  926  mv Dockerfile armhf-build/.
+  927  cd ..
+  928  ls
+  929  git add --all
+  930  git commit -m "initial dockerfile for a docker image that will cross build armhf images"
+  931  git push
+  932  ffjjdjgekbllnfnnigtnlenunkfehhcvfdk
+  933  ls
+  934  cd docker-tools/armhf-build/
+  935  ls
+  936  vi Dockerfile 
+  937  docker build .
+  938  docker manifest --help
+  939  vi Dockerfile 
+  940  docker build .
+  941  ls
+  942  docker manifest
+  943  ls -la ~/.
+  944  mkdir ~/.docker
+  945  vi ~/.docker/config.json
+  946  docker manifest
+  947  export DOCKER_CLI_EXPERIMENTAL=enabled
+  948  docker manifest
+  949  docker version
+  950  apt-get remove --purge docker-ce
+  951  sudo apt-get remove --purge docker-ce
+  952  sudo apt autoremove
+  953  sudo apt-get update
+  954  sudo apt-get upgrade
+  955  man curl 
+  956  curl -sfL test.docker.com | sh -
+  957  docker ps
+  958  docker manifest
+  959  cat ~/.docker/config.json 
+  960  buildx
+  961  docker buildx
+  962  docker version
+  963  cd ..
+  964  cd ../k3s-rpi-audio/
+  965  ls
+  966  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi-audio-out:latest
+  967  docker buildx --help
+  968  docker buildx build --help
+  969  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi_audio_out:latest
+  970  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi-audio-out:latest
+  971* docker buildx build --platform linux/arm,linux/arm64 
+  972  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi-audio-out:latest .
+  973  docker buildx create --help
+  974  docker buildx create --name rpi3plus --platform linux/arm64,linux/arm/v7
+  975  docker buildx inspect --help
+  976  docker buildx inspect rpi3plus
+  977  docker buildx use rpi3plus
+  978  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi-audio-out:latest .
+  979  sudo apt-get install qemu-user-static
+  980  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi-audio-out:latest .
+  981  docker buildx --help
+  982  docker buildx rm rpi3plus
+  983  docker buildx create --name rpi3plus --platform linux/arm64,linux/arm/v7
+  984  docker buildx use rpi3plus
+  985  docker buildx inspect rpi3plus
+  986  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi-audio-out:latest .
+  987  cat /proc/sys/fs/binfmt_misc/qemu-aarch64
+  988  docker run --rm --privileged docker/binfmt:820fdd95a9972a5308930a2bdfb8573dd4447ad3
+  989  cat /proc/sys/fs/binfmt_misc/qemu-aarch64
+  990  docker buildx rm rpi3plus
+  991  docker buildx create --name rpi3plus --platform linux/arm64,linux/arm/v7
+  992  docker buildx inspect rpi3plus
+  993  docker buildx use rpi3plus
+  994  docker buildx inspect rpi3plus
+  995  docker buildx inspect --bootstrap
+  996  docker buildx inspect rpi3plus
+  997  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi-audio-out:latest .
+  998  vi Dockerfile 
+  999  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi-audio-out:latest .
+ 1000  tergtng
+ 1001  docker images ls
+ 1002  docker images ls -a
+ 1003  docker buildx --push --help
+ 1004  docker buildx build --help
+ 1005  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi-audio-out:latest --push .
+ 1006  docker login
+ 1007  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi-audio-out:latest --push .
+ 1008  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi-audio-out:latest -o type=local .
+ 1009  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi-audio-out:latest -o --load .
+ 1010  docker images ls -a
+ 1011  docker buildx build --platform linux/arm/v7,linux/arm64 -t mak3r/rpi-audio-out:latest -o --push .
+ 1012  docker buildx build --platform linux/arm,linux/arm64 -t mak3r/rpi-audio-out:latest -o --push .
+ 1013  docker buildx build --platform linux/arm/v7,linux/arm64 -t mak3r/rpi-audio-out:latest -o --push .
+ 1014  docker buildx build -t mak3r/rpi-audio-out:latest -o --push .
+ 1015  docker buildx build -t mak3r/rpi-audio-out:latest --load .
+ 1016  docker images -a
+ 1017  docker buildx build -t mak3r/rpi-audio-out:latest --push .
+ 1018  docker buildx build --platform linux/arm/v7,linux/arm64 -t mak3r/rpi-audio-out:latest --load .
+ 1019  docker buildx build --platform linux/arm/v7 -t mak3r/rpi-audio-out:latest --load .
+ 1020  docker buildx build --platform linux/arm/v7 -t mak3r/rpi-audio-out:latest --push .
+ 1021  effjcrfeujtgitnhfldveerkbvlhlgfitthd
+ 1022  docker images -a
+ 1023  docker buildx build --platform linux/arm64 -t mak3r/rpi-audio-out:latest --push .
+ 1024  docker buildx build --platform linux/arm/v7 -t mak3r/rpi-audio-out:latest --push .
+ 1025  docker images
+ 1026  docker exec -it mak3r/rpi-audio-out /bin/bash
+ 1027  docker exec -it 9b1 /bin/bash
+ 1028* docker run -it 9b1  /bin/bash
+ 1029  ls
+ 1030  docker run -it 9b10844ed42f /bin/bash
+ 1031  docker run -it 9b10844ed42f /bin/sh
+ 1032  cat Dockerfile 
+ 1033  docker run -it 9b10844ed42f --entrypoint /bin/bash
+ 1034  docker run --entrypoint "/bin/bash" mak3r-rpi-audio-out
+ 1035  docker run --entrypoint "/bin/bash" mak3r/rpi-audio-out
+ 1036  docker run --entrypoint "/bin/bash" -it mak3r/rpi-audio-out
+ 1037  vi Dockerfile 
+ 1038  docker buildx build --platform linux/arm/v7 -t mak3r/rpi-audio-out:latest --push .
+ 1039  docker buildx build --platform linux/arm/v7 -t mak3r/rpi-audio-out:latest --load .
+ 1040  docker run --entrypoint "/bin/bash" -it mak3r/rpi-audio-out
+ 1041  pushd ../build-tools/
+ 1042  history > docker-build-history.txt
